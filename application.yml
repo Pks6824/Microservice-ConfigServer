@@ -1,11 +1,13 @@
 spring:
- application:
-  name:Config-Default
+  application:
+    name: Config-Default  # Sets the name of the application in the Spring context
+
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: true  # Configures the instance to use the IP address instead of the hostname when registering with Eureka
+
   client:
-    fetch-registry: true
-    register-with-eureka: true
+    fetch-registry: true  # Enables fetching of the registry from Eureka, so the application knows about other services
+    register-with-eureka: true  # Registers this service with Eureka
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/  # URL of the Eureka server where the application will register itself

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Configs-Default  # Sets the name of the application in the Spring context
+    name: Config-Default  # Sets the name of the application in the Spring context
 
 eureka:
   instance:

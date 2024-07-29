@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: Config-user # Sets the name of the application in the Spring context
 
 eureka:
   instance:
